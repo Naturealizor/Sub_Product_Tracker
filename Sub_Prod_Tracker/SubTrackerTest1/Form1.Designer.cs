@@ -40,6 +40,7 @@ namespace SubTrackerTest1
             this.custBtn = new System.Windows.Forms.Button();
             this.findSubBtn = new System.Windows.Forms.Button();
             this.subTxtbx = new System.Windows.Forms.TextBox();
+            this.randomSubBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // topLbl
@@ -109,9 +110,9 @@ namespace SubTrackerTest1
             // 
             // findSubBtn
             // 
-            this.findSubBtn.Location = new System.Drawing.Point(13, 193);
+            this.findSubBtn.Location = new System.Drawing.Point(13, 164);
             this.findSubBtn.Name = "findSubBtn";
-            this.findSubBtn.Size = new System.Drawing.Size(112, 36);
+            this.findSubBtn.Size = new System.Drawing.Size(124, 36);
             this.findSubBtn.TabIndex = 7;
             this.findSubBtn.Text = "Find Subscribers";
             this.findSubBtn.UseVisualStyleBackColor = true;
@@ -120,16 +121,26 @@ namespace SubTrackerTest1
             // 
             this.subTxtbx.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.subTxtbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subTxtbx.Location = new System.Drawing.Point(167, 203);
+            this.subTxtbx.Location = new System.Drawing.Point(179, 174);
             this.subTxtbx.Name = "subTxtbx";
             this.subTxtbx.Size = new System.Drawing.Size(138, 26);
             this.subTxtbx.TabIndex = 8;
+            // 
+            // randomSubBtn
+            // 
+            this.randomSubBtn.Location = new System.Drawing.Point(13, 269);
+            this.randomSubBtn.Name = "randomSubBtn";
+            this.randomSubBtn.Size = new System.Drawing.Size(124, 34);
+            this.randomSubBtn.TabIndex = 9;
+            this.randomSubBtn.Text = "Get Random";
+            this.randomSubBtn.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1095, 585);
+            this.Controls.Add(this.randomSubBtn);
             this.Controls.Add(this.subTxtbx);
             this.Controls.Add(this.findSubBtn);
             this.Controls.Add(this.custBtn);
@@ -157,6 +168,7 @@ namespace SubTrackerTest1
         private System.Windows.Forms.Button custBtn;
         private System.Windows.Forms.Button findSubBtn;
         private System.Windows.Forms.TextBox subTxtbx;
+        private System.Windows.Forms.Button randomSubBtn;
     }
 }
 
