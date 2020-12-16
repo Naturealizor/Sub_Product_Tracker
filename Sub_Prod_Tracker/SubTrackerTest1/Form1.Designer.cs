@@ -41,6 +41,7 @@ namespace SubTrackerTest1
             this.findSubBtn = new System.Windows.Forms.Button();
             this.subTxtbx = new System.Windows.Forms.TextBox();
             this.randomSubBtn = new System.Windows.Forms.Button();
+            this.subCountBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // topLbl
@@ -135,11 +136,21 @@ namespace SubTrackerTest1
             this.randomSubBtn.Text = "Get Random";
             this.randomSubBtn.UseVisualStyleBackColor = true;
             // 
+            // subCountBtn
+            // 
+            this.subCountBtn.Location = new System.Drawing.Point(13, 216);
+            this.subCountBtn.Name = "subCountBtn";
+            this.subCountBtn.Size = new System.Drawing.Size(124, 34);
+            this.subCountBtn.TabIndex = 10;
+            this.subCountBtn.Text = "Total Count";
+            this.subCountBtn.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1095, 585);
+            this.Controls.Add(this.subCountBtn);
             this.Controls.Add(this.randomSubBtn);
             this.Controls.Add(this.subTxtbx);
             this.Controls.Add(this.findSubBtn);
@@ -169,6 +180,7 @@ namespace SubTrackerTest1
         private System.Windows.Forms.Button findSubBtn;
         private System.Windows.Forms.TextBox subTxtbx;
         private System.Windows.Forms.Button randomSubBtn;
+        private System.Windows.Forms.Button subCountBtn;
     }
 }
 
