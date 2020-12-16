@@ -1,0 +1,10 @@
+C:\Users\natur\source\repos\SubTrackerTest1\SubTrackerTest1\bin\Debug\SubTrackerTest1.exe.config
+C:\Users\natur\source\repos\SubTrackerTest1\SubTrackerTest1\bin\Debug\SubTrackerTest1.exe
+C:\Users\natur\source\repos\SubTrackerTest1\SubTrackerTest1\bin\Debug\SubTrackerTest1.pdb
+C:\Users\natur\source\repos\SubTrackerTest1\SubTrackerTest1\obj\Debug\SubTrackerTest1.csprojAssemblyReference.cache
+C:\Users\natur\source\repos\SubTrackerTest1\SubTrackerTest1\obj\Debug\SubTrackerTest1.Form1.resources
+C:\Users\natur\source\repos\SubTrackerTest1\SubTrackerTest1\obj\Debug\SubTrackerTest1.Properties.Resources.resources
+C:\Users\natur\source\repos\SubTrackerTest1\SubTrackerTest1\obj\Debug\SubTrackerTest1.csproj.GenerateResource.cache
+C:\Users\natur\source\repos\SubTrackerTest1\SubTrackerTest1\obj\Debug\SubTrackerTest1.csproj.CoreCompileInputs.cache
+C:\Users\natur\source\repos\SubTrackerTest1\SubTrackerTest1\obj\Debug\SubTrackerTest1.exe
+C:\Users\natur\source\repos\SubTrackerTest1\SubTrackerTest1\obj\Debug\SubTrackerTest1.pdb
